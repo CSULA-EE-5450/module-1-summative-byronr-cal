@@ -1,0 +1,409 @@
+#: kivy 2.0.0
+
+<Connect4Layout>:
+    canvas.before:
+        color:
+            rgba: 255, 255, 255, 0.9
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    cell_00:cell_00
+	cell_01:cell_01
+	cell_02:cell_02
+	cell_03:cell_03
+	cell_04:cell_04
+	cell_05:cell_05
+	cell_06:cell_06
+	cell_10:cell_10
+	cell_11:cell_11
+	cell_12:cell_12
+	cell_13:cell_13
+	cell_14:cell_14
+	cell_15:cell_15
+	cell_16:cell_16
+	cell_20:cell_20
+	cell_21:cell_21
+	cell_22:cell_22
+	cell_23:cell_23
+	cell_24:cell_24
+	cell_25:cell_25
+	cell_26:cell_26
+	cell_30:cell_30
+	cell_31:cell_31
+	cell_32:cell_32
+	cell_33:cell_33
+	cell_34:cell_34
+	cell_35:cell_35
+	cell_36:cell_36
+	cell_40:cell_40
+	cell_41:cell_41
+	cell_42:cell_42
+	cell_43:cell_43
+	cell_44:cell_44
+	cell_45:cell_45
+	cell_46:cell_46
+	cell_50:cell_50
+	cell_51:cell_51
+	cell_52:cell_52
+	cell_53:cell_53
+	cell_54:cell_54
+	cell_55:cell_55
+	cell_56:cell_56
+
+
+	BoxLayout:
+	    size_hint: 1, 1
+	    orientation: 'vertical'
+
+
+        BoxLayout:
+            padding: 10
+            spacing: 10
+            orientation: 'horizontal'
+
+            Button:
+                id: cell_00
+                text: ''
+                on_press: root.select(0, 0, 0)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_01
+                text: ''
+                on_press: root.select(0, 1, 1)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_02
+                text: ''
+                on_press: root.select(0, 2, 2)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_03
+                text: ''
+                on_press: root.select(0, 3, 3)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_04
+                text: ''
+                on_press: root.select(0, 4, 4)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_05
+                text: ''
+                on_press: root.select(0, 5, 5)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_06
+                text: ''
+                on_press: root.select(0, 6, 6)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+		BoxLayout:
+            padding: 10
+            spacing: 10
+            orientation: 'horizontal'
+
+            Button:
+                id: cell_10
+                text: ''
+                on_press: root.select(1, 0, 10)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_11
+                text: ''
+                on_press: root.select(1, 1, 11)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_12
+                text: ''
+                on_press: root.select(1, 2, 12)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_13
+                text: ''
+                on_press: root.select(1, 3, 13)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_14
+                text: ''
+                on_press: root.select(1, 4, 14)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_15
+                text: ''
+                on_press: root.select(1, 5, 15)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_16
+                text: ''
+                on_press: root.select(1, 6, 16)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+		BoxLayout:
+            padding: 10
+            spacing: 10
+            orientation: 'horizontal'
+
+            Button:
+                id: cell_20
+                text: ''
+                on_press: root.select(2, 0, 20)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_21
+                text: ''
+                on_press: root.select(2, 1, 21)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_22
+                text: ''
+                on_press: root.select(2, 2, 22)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_23
+                text: ''
+                on_press: root.select(2, 3, 23)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_24
+                text: ''
+                on_press: root.select(2, 4, 24)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_25
+                text: ''
+                on_press: root.select(2, 5, 25)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_26
+                text: ''
+                on_press: root.select(2, 6, 26)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+		BoxLayout:
+            padding: 10
+            spacing: 10
+            orientation: 'horizontal'
+
+            Button:
+                id: cell_30
+                text: ''
+                on_press: root.select(3, 0, 30)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_31
+                text: ''
+                on_press: root.select(3, 1, 31)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_32
+                text: ''
+                on_press: root.select(3, 2, 32)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_33
+                text: ''
+                on_press: root.select(3, 3, 33)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_34
+                text: ''
+                on_press: root.select(3, 4, 34)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_35
+                text: ''
+                on_press: root.select(3, 5, 35)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_36
+                text: ''
+                on_press: root.select(3, 6, 36)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+		BoxLayout:
+            padding: 10
+            spacing: 10
+            orientation: 'horizontal'
+
+            Button:
+                id: cell_40
+                text: ''
+                on_press: root.select(4, 0, 40)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_41
+                text: ''
+                on_press: root.select(4, 1, 41)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_42
+                text: ''
+                on_press: root.select(4, 2, 42)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_43
+                text: ''
+                on_press: root.select(4, 3, 43)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_44
+                text: ''
+                on_press: root.select(4, 4, 44)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_45
+                text: ''
+                on_press: root.select(4, 5, 45)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_46
+                text: ''
+                on_press: root.select(4, 6, 46)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+		BoxLayout:
+            padding: 10
+            spacing: 10
+            orientation: 'horizontal'
+
+            Button:
+                id: cell_50
+                text: ''
+                on_press: root.select(5, 0, 50)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_51
+                text: ''
+                on_press: root.select(5, 1, 51)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_52
+                text: ''
+                on_press: root.select(5, 2, 52)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_53
+                text: ''
+                on_press: root.select(5, 3, 53)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_54
+                text: ''
+                on_press: root.select(5, 4, 54)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+
+            Button:
+                id: cell_55
+                text: ''
+                on_press: root.select(5, 5, 55)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
+            Button:
+                id: cell_56
+                text: ''
+                on_press: root.select(5, 6, 56)
+                border: 0,0,0,0
+                background_normal: 'images/blank.png'
+                background_down: 'images/down.png'
